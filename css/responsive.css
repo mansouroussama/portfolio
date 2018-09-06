@@ -1,0 +1,77 @@
+/* RESPONSIVE STYLESHEET */
+
+@media only screen and (max-width:1200px) {
+    /* NOTHING is really necessary to edit for this width span */
+}
+@media only screen and (max-width:1024px) {
+    /* CONTACT width becomes 100% */
+    .contact form {
+        position:relative;
+        width:100%;
+        height:auto;
+        padding:7% 14%
+    }
+    header navbar ul  {
+        display:block;
+    }
+}
+@media only screen and (max-width:768px) {
+    header navbar {
+        height:auto!important
+    }
+    header navbar .burger-menu {
+        display:block
+    }
+    header navbar ul  {
+        display:none;
+        width:150px!important;
+        margin:15px 70px 0 0;
+    }
+    header navbar.sticky ul  {
+        margin-top:0
+    }
+    header navbar ul li {
+        padding:0 10px!important;
+        text-align:center;
+        line-height:55px!important
+    }
+    header .intro-text h1 {
+        font-size:38px;
+    }
+    header .intro-text p {
+        font-size:14px;
+    }
+    .about-me .about-text {
+        padding-top:15px;
+        font-size:17px
+    }
+    .skills .skills-sets {
+        width:45%;
+    }
+    .skills .skills-img {
+        width:55%;
+    }
+    .about-me .avatar {
+        float:none;
+        margin:0 auto 20px;
+    }
+    .about-me .about-text {
+        width:100%;
+        padding:0;
+        font-size:16px;
+        line-height:1.9;
+        text-align:justify;
+        margin:0 auto 10px;
+    }
+    footer ul.navigation,
+    footer ul.social {
+        float:none;
+        margin:0 auto 20px
+    }
+}
+@media only screen and (max-width:480px) {
+    /* Resizing Portfolio images */
+    /*
+        Last thing to tackle is to fix the missing navbar ul after clicking on the burger menu
+    */
+}
